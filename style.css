@@ -469,7 +469,7 @@ body {
     }
 
     .intro {
-        
+        height: 660px;
         display: flex;
         justify-content: center;
          flex-direction: column;
@@ -511,7 +511,7 @@ body {
      /* Section 1 */
      .section__one {
          width: 100%;
-         
+         height: 610px;
          background-color: #fff;
          display: flex;
          align-items: center;
@@ -594,10 +594,7 @@ body {
      
      
     
-   .section_two {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-   }
+   
     
         
        
