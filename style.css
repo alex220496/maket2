@@ -340,6 +340,13 @@ body {
     }
 
     /* Section 2 */
+    .section__two {
+        width: 100%;
+         background-color: #fff;
+         display: flex;
+         align-items: center;
+         border-bottom: 2px solid #dde1e4;
+    }
     
     [class*="team-"] {
        position: relative;
