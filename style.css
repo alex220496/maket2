@@ -78,6 +78,9 @@ body {
     display: flex;
     background: none;
 } 
+.form-search:hover {
+    border: #c9d5e5 2px solid;
+}
 .form-search input {
     position: relative;
     left: 3px;
@@ -100,10 +103,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-.form-search button:hover {
+ .form-search button:hover {
     background-color: rgb(61, 59, 59);
     border-radius: 3px;
-}
+} 
 
 /* only mobile */
 @media(min-width:768px) {
@@ -301,6 +304,9 @@ body {
          align-items: center;
          background-color: #d0d5d9;
        
+     }
+     [class*="link-"]:hover {
+         background-color: #9b9ea0;
      }
      .punkts{
         display: flex;
