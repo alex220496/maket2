@@ -268,11 +268,12 @@ body {
         
     
     .article h1 {
-        display: block;
-        color: #fff;
-        font-size: 36px;
         text-transform: uppercase;
-        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Quattrocento Sans";
     }
     .article p {
         margin: 35px 0 45px ;
@@ -304,27 +305,30 @@ body {
 
      }
      [class*="title-"] {
-         font-family: 'Quattrocento Sans', sans-serif;
+         
          border-left: 10px solid #e1e6ea;
          padding: 0 20px;
-         font-weight: bold;
-         color: #000;
-         font-size: 36px;
          margin:  80px 0 60px;
          text-transform: uppercase;
+         font-size: 36px;
+         line-height: 42px;
+         color: #292f36;
+         font-weight: 700;
+         font-family: "Quattrocento Sans";
 
      }
      .sec1-article {
          margin: 0  0 40px 0;
      }
      .sec1-article  p{
-         font-family: 'Quattrocento Sans', sans-serif;
-         color: #a9aaad;
+         font-family: "Open Sans";
+         color: #8d8f92;
          font-size: 16px;
          padding:0 0 30px 0;
          font-weight: 400;
          line-height: 25px;
-    }
+         font-size: 16px;
+     }
      .text-bold {
          font-weight: bold;
          color: #8d8f92;
@@ -376,10 +380,12 @@ body {
     }
     
     .text{
-        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
-        color: #a9aaad;
-        padding: 0 0 41px 0;
+        line-height: 26px;
+        color: #8d8f92;
+        font-weight: 400;
+        font-family: "Open Sans";
+        padding: 0 0 20px 0;
         
 
     }
@@ -526,7 +532,7 @@ body {
         background-image: url(img/plus.png);
         background-position: center;
         background-repeat: no-repeat;
-        width:100%;
+        width:100.005%;
         height: 77.5%;
         opacity: 0;
         background-color: rgba(0, 0, 0, 0.40);
@@ -578,12 +584,16 @@ body {
     .my-title {
         text-transform: uppercase;
         font-size: 17px;
-        font-weight: bold;
+        color: #292f36;
+        font-weight: 700;
+        font-family: "Quattrocento Sans";
     }
     .my-description{
         font-size: 16px;
+        line-height: 26px;
         color: #8d8f92;
-        line-height: 25px;
+        font-weight: 400;
+        font-family: "Open Sans";
         text-align: center;
         
 
@@ -604,14 +614,19 @@ body {
         .features-descriotion-h3 {
             text-transform: uppercase;
             font-size: 18px;
-            color: #fff;
-            font-weight: bold;
+            line-height: 42px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Quattrocento Sans";
             padding: 55px 0 30px 0;
         }
         .features-descriotion-p {
-            color: #bcc1c4 ;
             font-size: 16px;
-            line-height: 25px;
+            line-height: 26px;
+            color: #dcdfe1;
+            font-weight: 400;
+            font-family: "Open Sans";
+            padding-bottom: 40px;
             padding: 0 0 125px 0;
         }
         /* Section__six */
@@ -622,14 +637,19 @@ body {
         .stay-in-touch-description-h3 {
             text-transform: uppercase;
             font-size: 20px;
-            font-weight: bold;
+            line-height: 26px;
+            color: #292f36;
+            font-weight: 700;
+            font-family: "Quattrocento Sans";
             padding: 60px 0 45px 0;
         }
         .stay-in-touch-description-p p {
-            color: #bcc1c4 ;
             font-size: 16px;
-            line-height: 25px;
-            padding-bottom: 40px;
+            line-height: 26px;
+            color: #8d8f92;
+            font-weight: 400;
+            font-family: "Open Sans";
+            padding: 0 0 40px 0;
         }
         .stay-in-touch-description-p{
             padding-bottom: 65px;
