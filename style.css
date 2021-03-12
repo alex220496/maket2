@@ -6,7 +6,6 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -507,7 +506,6 @@ body {
     
      .nature {
          position: relative;
-         /* padding: 15px 0; */
          margin: 15px 0;
     } 
     .nature img {
