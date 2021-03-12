@@ -119,13 +119,16 @@ body {
     width: 50%;
     padding: 40px 15px;
 }
-.as-contects {
+.as-contacts {
     display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
     width: 50%;
     padding: 40px 15px;
+}
+.as-contacts img:hover {
+    background-color: #566672;
 }
 
 /* only mobile */
