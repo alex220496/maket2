@@ -79,6 +79,7 @@ body {
     border: #c9d5e5 2px solid;
 }
 .form-search input {
+    width: 100%;
     position: relative;
     left: 3px;
     background: none;
@@ -600,8 +601,8 @@ body {
 @media(max-width:767px) {
 
     [class*="col-"] {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .container {
