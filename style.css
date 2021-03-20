@@ -41,7 +41,7 @@ body {
 
 .menu {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     overflow-x: auto;
     
     
@@ -434,7 +434,7 @@ body {
     padding: 20px 0;
 }
 .my-img {
-    width: 80px;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -519,8 +519,8 @@ body {
         /* footer */ 
     .footer {
         background-color:  #3a454d;
-    display: flex;
-    flex-wrap: nowrap;
+        display: flex;
+        flex-wrap: wrap;
         
     }
     .ear2014 {
@@ -605,17 +605,12 @@ body {
         padding-right: 30px;
     }
     
-    .container {
-        width: 100%;
-        max-width: none;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
     .row {
         margin-left: -30px;
         margin-right: -30px;
 
     }
+    
     .form-search {
         display: none;
     }
@@ -665,13 +660,13 @@ body {
         max-width: 100%;
     }
     .nav-mobile-menu {
-        width: 15px;
-        height: 15px;
+        width: 25px;
+        height: 30px;
         position: relative;
     }
     .nav-mobile-menu span {
-        height: 1px;
-        background-color: #000;
+        height: 2px;
+        background-color: #fff;
         position: absolute;
         left: 0;
         top: 0;
@@ -679,13 +674,13 @@ body {
         transition: .025s ease-in-out;
     }
     .nav-mobile-menu span:nth-child(1) {
-        top: 3px;
+        top: 8px;
     }
     .nav-mobile-menu span:nth-child(2) {
-        top: 7px;
+        top: 12px;
     }
     .nav-mobile-menu span:nth-child(3) {
-        bottom: 3px;
+        bottom: 8px;
     }
     .nav-mobile-menu.active-menu span:nth-child(1){
         top: 50%;
@@ -702,9 +697,11 @@ body {
         transform: translateX(150%);
         position: fixed;
         top: 0;
-        right: 0;
+        left: 0;
         bottom: 0;
-        width: 280px;
+        width: 200px;
+        max-width: 200px;
+        margin-top: 45px;
         /* transition:  500ms ease-in-out; */
     }
     .hidden-menu {
@@ -717,13 +714,14 @@ body {
         transform: translateX(0);
         top: 40px;
         background: #000;
-        padding: 20px;
+        padding: 50px 20px; 
         flex-direction: column;
     }
 }
 
 @media(min-width:768px) {
     .container{
+        width: 100%;
         max-width: 720px;
     }
     
@@ -779,6 +777,7 @@ body {
 }
 @media(min-width:992px) {
     .container{
+        width: 100%;
         max-width: 960px;
     }    
     
@@ -832,6 +831,7 @@ body {
 }
 @media(min-width:1200px) {
     .container{
+        width: 100%;
         max-width: 1170px;
         
     }
